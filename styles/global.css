@@ -25,11 +25,11 @@
 
 
   --font-inconsolata: "Inconsolata", Sans-Serif;
-  --subtitulo: 500 1.25rem/120% var(--font-inconsolata)
+  --subtitle: 400 1.25rem/120% var(--font-inconsolata);
 
 
   --font-mavenpro: "Maven Pro", Sans-Serif;
-  --text-md: 500 1rem/140%  var(--font-mavenpro);
-  --font-sm: 500 0.875rem/140% var(--font-mavenpro);
+  --text-md: 400 1rem/140%  var(--font-mavenpro);
+  --text-sm: 400 0.875rem/140% var(--font-mavenpro);
 
 }

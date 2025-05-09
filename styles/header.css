@@ -1,0 +1,236 @@
+body {
+  width: 1526px;
+  height: 3088px;
+  background-color: var(--gray-300);
+  align-items: center;
+  margin: 80px 80px;
+}
+
+header {
+  max-width: 1366px;
+  height: 750px;
+  display: flex;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+}
+
+.profile { 
+ padding-top: 120px;
+ padding-bottom: 80px;
+ flex-direction:column;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ justify-items: center;
+ width: 680px;
+ height: 327px;
+ margin: 120px 343px 303px;
+ position: absolute;
+ 
+}
+
+
+ .photo-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 5px solid var(--red);
+  padding: 4px;
+
+
+ }
+
+ .vector {
+  transform: translate(245%, -80%);
+  width: 39px;
+  height: 33px;
+
+ }
+
+
+ h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+  padding-block: 8px 20px;
+  padding-bottom: 20px;
+  }
+  
+  h4 {
+    padding: 8px;
+    color: var(--gray-500);
+    font: var(--subtitle);
+  }
+
+  h4 span {
+      color: var(--red);
+    }
+  
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-400);
+    text-align: center;
+      
+  }
+
+
+
+  .tech-icons { 
+    display: flex;
+    width: 114px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 8px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter:  brightness(0) saturate(100%) invert(92%) sepia(7%) saturate(274%) hue-rotate(185deg) brightness(84%) contrast(95%);;
+      
+    }
+      span {
+        color:var(--gray-400);
+  }
+}
+
+  .tech-icons1 {
+    display: flex;
+    width: 105px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 8px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter: brightness(0) saturate(100%) invert(50%) sepia(42%) saturate(1564%) hue-rotate(316deg) brightness(93%) contrast(90%);
+      
+    }
+      span {
+        color:var(--gray-400);
+  }
+}
+
+  .tech-icons2 {
+    display: flex;
+    width: 92px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 7px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter: brightness(0) saturate(100%) invert(58%) sepia(32%) saturate(3531%) hue-rotate(180deg) brightness(92%) contrast(86%);
+      
+    }
+      span {
+        color:var(--gray-400);
+  }
+}
+
+  .tech-icons3 {
+    display: flex;
+    width: 138px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 8px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter: brightness(0) saturate(100%) invert(95%) sepia(13%) saturate(3550%) hue-rotate(317deg) brightness(109%) contrast(84%);
+      
+    }
+      span {
+        color:var(--gray-400);
+  }
+}
+
+  .tech-icons4 {
+    display: flex;
+    width: 106px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 8px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter: brightness(0) saturate(100%) invert(50%) sepia(46%) saturate(686%) hue-rotate(163deg) brightness(96%) contrast(94%);
+      
+    }
+  
+      span {
+        color:var(--gray-400);
+  }
+}
+
+  .tech-icons5 {
+    display: flex;
+    width: 119px;
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 25px;
+    font: var(--text-md);
+    margin: auto;
+    align-items: center;
+    gap: 8px;
+   
+
+    
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-left: 16px;
+      filter: brightness(0) saturate(100%) invert(69%) sepia(51%) saturate(443%) hue-rotate(49deg) brightness(89%) contrast(88%);
+      
+    }
+      span {
+        color:var(--gray-400);
+  }
+}
+
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 527px 306px 183px;
+}
