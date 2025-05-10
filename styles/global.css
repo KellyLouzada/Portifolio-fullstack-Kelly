@@ -33,3 +33,9 @@
   --text-sm: 400 0.875rem/140% var(--font-mavenpro);
 
 }
+
+main {
+  width: 1366px;
+  height: 917px;
+  border: 1px solid white;
+}

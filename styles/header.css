@@ -32,8 +32,8 @@ header {
 
  .photo-img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 180px;
   display: flex;
   border: 5px solid var(--red);
   padding: 4px;
@@ -233,4 +233,9 @@ header {
   justify-content: center;
   gap: 16px;
   margin: 527px 306px 183px;
+}
+
+.vector2 {
+  position: absolute;
+  margin: 661px 667px 57px;
 }
