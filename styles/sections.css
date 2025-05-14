@@ -2,10 +2,42 @@
   
   width: 1040px;
   height: 584px;
-  border: 1px solid white;
-
+  margin: 189px 163px 144px;
+ 
 }
+
 
 .card {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  font: var(--title-sm);
+  
+  
+  & img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    margin: 12px 12px;
+  }
+
+  figcaption { 
+    h1 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin: 0px 20px 0px;
+    gap: 8px;
+}
+
+p {
+  text-align: justify;
+  margin: 0px 20px 20px;
+  font: var(--text-sm);
+}
+}
   
 }
+
+
+
