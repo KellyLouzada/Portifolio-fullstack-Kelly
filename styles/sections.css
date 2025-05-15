@@ -3,11 +3,13 @@
   width: 1040px;
   height: 584px;
   margin: 189px 163px 144px;
+  position: absolute;
  
 }
 
 
 .card {
+  transition: transform 0.2s ease-in-out;
   width: 330px;
   height: 280px;
   background-color: var(--gray-300);
@@ -26,18 +28,39 @@
     h1 {
     font: var(--title-sm);
     color: var(--gray-600);
-    margin: 0px 20px 0px;
+    margin: 10px 20px 8px;
     gap: 8px;
-}
+  }
+    
 
 p {
   text-align: justify;
-  margin: 0px 20px 20px;
+  margin: 0px 20px 25px;
   font: var(--text-sm);
-}
 }
   
 }
+}
 
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  
+}
+
+strong {
+  text-align: center;
+  margin-top: 72px;
+  gap: 56px;
+  
+  h4 {
+    color: var(--red);
+    font: var(--subtitle);
+   }
+   h2 {
+    color: var(--gray-600);
+    font: var(--title-md);
+   }
+}
 
 

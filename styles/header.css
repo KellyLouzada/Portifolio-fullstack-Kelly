@@ -1,9 +1,8 @@
 body {
-  width: 1526px;
-  height: 3088px;
+ 
   background-color: var(--gray-300);
   align-items: center;
-  margin: 80px 80px;
+  margin: 80px;
 }
 
 header {
@@ -12,6 +11,7 @@ header {
   display: flex;
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
+  margin: auto;
 }
 
 .profile { 
@@ -52,8 +52,7 @@ header {
  h1 {
   font: var(--title-lg);
   color: var(--gray-600);
-  padding-block: 8px 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   }
   
   h4 {
@@ -71,8 +70,7 @@ header {
     font: var(--text-sm);
     color: var(--gray-400);
     text-align: center;
-      
-  }
+}
 
 
 
@@ -99,6 +97,8 @@ header {
       span {
         color:var(--gray-400);
   }
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
   .tech-icons1 {
@@ -124,6 +124,8 @@ header {
       span {
         color:var(--gray-400);
   }
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
   .tech-icons2 {
@@ -149,6 +151,8 @@ header {
       span {
         color:var(--gray-400);
   }
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
   .tech-icons3 {
@@ -174,6 +178,8 @@ header {
       span {
         color:var(--gray-400);
   }
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
   .tech-icons4 {
@@ -200,6 +206,8 @@ header {
       span {
         color:var(--gray-400);
   }
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
   .tech-icons5 {
@@ -225,8 +233,40 @@ header {
       span {
         color:var(--gray-400);
   }
+
+  box-shadow: 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.tech-icons:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(245, 247, 246, 0.7);
+}
+
+.tech-icons1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(240, 115, 115, 0.7);
+}
+
+.tech-icons2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(22, 157, 240, 0.7);
+}
+
+.tech-icons3:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(280, 231, 62, 0.7);
+}
+
+.tech-icons4:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(22, 157, 240, 0.7);
+}
+
+.tech-icons5:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px 2px rgba(118, 224, 150, 0.7);
+}
 
 .technologies {
   display: flex;

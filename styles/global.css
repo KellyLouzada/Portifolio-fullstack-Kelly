@@ -37,6 +37,7 @@
 main {
   width: 1366px;
   height: 917px;
-  border: 1px solid white;
   background-color: var(--gray-200);
+  margin: auto;
+  margin-top: 0;
 }
