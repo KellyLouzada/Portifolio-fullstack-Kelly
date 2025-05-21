@@ -48,7 +48,7 @@ p {
   
 }
 
-strong {
+.section-heading{
   text-align: center;
   margin-top: 72px;
   gap: 56px;

@@ -60,12 +60,11 @@ header {
     color: var(--gray-500);
     font: var(--subtitle);
   }
-
-  h4 span {
-      color: var(--red);
-    }
   
-
+  .profile strong{
+    color: var(--red);
+  }
+  
   p {
     font: var(--text-sm);
     color: var(--gray-400);

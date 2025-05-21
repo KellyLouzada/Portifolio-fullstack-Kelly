@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
   <header>
     
     <section class= "profile">
@@ -30,7 +31,9 @@
         <img src="assets/icons/Vector.png" alt="ícone da foto" class="vector">
       </div>
 
-        <h4>Hello World! Meu nome é <span class= "name"> Kelly Louzada</span>  e sou</h4>
+        <h4>Hello World! Meu nome é 
+          <strong>Kelly Louzada</strong>  
+          e sou</h4>
         <h1>Desenvolvedora Fullstack</h1>
         <p>
           Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
@@ -70,10 +73,10 @@
      </header>
     
      <main class="grid container">
-      <strong>
+      <section class="section-heading">
         <h4>Meu trabalho</h4>
         <h2>Veja os projetos em destaque</h2>
-      </strong>
+      </section>
       <section id="featured" class=" grid grid-cols gap-24">
         <figure class="card">
           <img src="assets/images/projeto travelgram.png" alt="projeto travelgram">
@@ -137,13 +140,13 @@
     </main>
 
     <aside>
-      <strong>
+      <section class="section-heading">
         <h4> Meus serviços</h4>
         <h2>Como posso ajudar o seu negócio</h2>
-      </strong>
+      </section>
      <section id="services">
      <figure class="cardServices">
-      <img src="assets/icons/Devices.svg" alt="">
+      <img src="assets/icons/Devices.svg" alt="icone do Websites">
       <figcaption>
         <h1> Websites e Aplicativos</h1>
         <p>
@@ -153,7 +156,7 @@
     </figure>
 
     <figure class="cardServices">
-      <img src="assets/icons/HardDrives.svg" alt="">
+      <img src="assets/icons/HardDrives.svg" alt="icone de API">
       <figcaption>
         <h1>API e banco de dados</h1>
         <p>
@@ -163,7 +166,7 @@
     </figure>
 
     <figure class="cardServices">
-      <img src="assets/icons/Infinity.svg" alt="">
+      <img src="assets/icons/Infinity.svg" alt="icone do DevOps">
       <figcaption>
         <h1>DevOps</h1>
         <p>
@@ -182,32 +185,35 @@
       </div>
 
        <div class="footer-container">
-       <div class="social">
-        <img src="assets/icons/iconlinkedin.png" alt="">
+       <a href="https://www.linkedin.com/in/kelly-louzada-83b7ba26a/" class="social">
+        <img src="assets/icons/iconlinkedin.png" alt="logo do linkedin">
         <p>Linkedin</p>
-        <img src="assets/icons/setaazul.png" alt="">
-       </div>
+        <img src="assets/icons/setaazul.png" alt="setz azul">
+       </a>
 
-       <div class="social">
-        <img src="assets/icons/iconinstagran.png" alt="">
+       <a href="https://www.instagram.com/kelly.louzada.s?igsh=MXA4czg2ZG80cjJjdQ%3D%3D&utm_source=qr" class="social">
+        <img src="assets/icons/iconinstagran.png" alt="logo do instagram">
         <p>Instagram</p>
-        <img src="assets/icons/setaazul.png" alt="">
-       </div>
+        <img src="assets/icons/setaazul.png" alt="seta azul">
+       </a>
       
-       <div class="social">
-        <img src="assets/icons/icongithub.png" alt="">
+       <a href="https://github.com/KellyLouzada" class="social">
+        <img src="assets/icons/icongithub.png" alt="logo do github">
         <p>GitHub</p>
-        <img src="assets/icons/setaazul.png" alt="">
-       </div>
+        <img src="assets/icons/setaazul.png" alt="seta azul">
+       </a>
 
-       <div class="social">
-        <img src="assets/icons/iconemail.png" alt="">
+       <a href="mailto:kellycristinalouzada.sf@gmail.com" class="social">
+        <img src="assets/icons/iconemail.png" alt="logo do E-mail">
         <p>E-mail</p>
-        <img src="assets/icons/setaazul.png" alt="">
-       </div>
-      </div>
+        <img src="assets/icons/setaazul.png" alt="seta azul">
+       </a>
+    </div>
     </footer>
-
+    <button id="backToTop" class="back-to-top">
+      <img src="assets/icons/arrow-up-circle.svg" alt="icone de up">
+    </button>
+    <script src="index.js"></script>
   </body>
 
 </html>

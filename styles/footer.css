@@ -2,19 +2,20 @@ footer {
   width: 1366px;
   height: 787px;
   background-image: url(../assets/images/Background_Contacts.png);
-  background-size: cover;
   margin: auto;
-  border: 1px solid white;
-  
+  background-size: cover;
+  border-radius: 0px 0px 28px 28px;
 }
 
-.footer-container  {
+
+.footer-container {
   width: 400px;
   height: 320px;
   display: grid;
   background-color: var(--gray-200);
   margin: 48px 483px 200px;
   gap: 16px;
+  
 }
 
 .social {
@@ -22,20 +23,32 @@ footer {
   height: 68px;
   background-color: var(--gray-300);
   border-radius: 8px;
-  
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  gap: 12px;
+  padding: 24px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social img:last-child {
+  margin-left: auto;
+}
+
+.social:hover {
+  transform: scale(0.98);
+ 
 }
 
 .contact {
-  /* border: 1px solid white; */
-  width: 428px;
-  height: 91px;
-  text-align: center;
+  width: 420px;
   gap: 8px;
-  margin: 128px 473px 0px;
-}
+  text-align: center;
+  margin: 0px 473px 0px;
+  padding: 128px 0px 0px;
   
-
-
+}
   
   p {
     font: var(--text-md);
@@ -57,4 +70,31 @@ footer {
     font: var(--subtitle);
     text-align: center;
   }
+
+
+  .back-to-top {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância da lateral direita */
+    width: 50px;
+    height: 50px;
+    background-color: var(--purple); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 50%; /* Torna o botão circular */
+    cursor: pointer; /* Mostra o cursor de clique */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+    display: flex; /* Garante que o botão seja flexível */
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    opacity: 0; /* Inicialmente invisível */
+    pointer-events: none; /* Desativa cliques enquanto invisível */
+    transition: opacity 1s ease; /* Suaviza a transição de opacidade */
+  }
   
+  .back-to-top.show {
+    opacity: 1; /* Reduz a opacidade ao passar o mouse */
+    pointer-events: auto;
+  }
