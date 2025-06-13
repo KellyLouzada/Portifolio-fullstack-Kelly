@@ -6,12 +6,13 @@ body {
 }
 
 header {
-  max-width: 1366px;
+  width: 85.375em;
   height: 750px;
   display: flex;
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
   margin: auto;
+  border-radius: 28px 28px 0 0;
 }
 
 .profile { 

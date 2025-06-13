@@ -35,7 +35,7 @@
 }
 
 main {
-  width: 1366px;
+  width: 85.375em;
   height: 917px;
   background-color: var(--gray-200);
   margin: auto;

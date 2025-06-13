@@ -1,6 +1,6 @@
 aside {
   display: flex;
-  width: 1366px;
+  width: 85.375em;
   height: 480px;
   background-color: var(--gray-100);
   margin: auto;
